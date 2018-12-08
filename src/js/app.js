@@ -26,7 +26,7 @@ App = {
 
   getContractDetails: () => {
     console.log("Contract details");
-    $.getJSON('../AssetFactory.json', (data) => {
+    $.getJSON('/AssetFactory.json', (data) => {
       App.AssetFactory = TruffleContract(data);
       App.setProvider(App.web3Provider);
 

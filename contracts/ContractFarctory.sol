@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-import './NameRegistry.sol';
+import "./NameRegistry.sol";
 
 contract Asset {
 
